@@ -23,51 +23,7 @@ A bilingual (Urdu + English), mobile-first, single-page website for a real Karac
 |---|---|---|
 | ![Hero](images/fleet_7.jpg) | ![Services](images/fleet_6.jpg) | ![Fleet](images/fleet_8.jpg) |
 
-| Livery Concept | Business Card | Logo |
-|---|---|---|
-| ![Livery](images/livery_side.jpg) | ![Card front](images/card_front.jpg) | ![Logo](images/logo_a.png) |
-
-## 🎨 Brand Identity
-
-| Element | Value |
-|---|---|
-| Colors | Cherry Laal `#C8102E` · Ajrak Indigo `#1B2A6B` · Gold `#C9A227` · Cream `#FBF6EC` |
-| English font | Archivo Black / Archivo |
-| Urdu font | Noto Nastaliq Urdu |
-| Tagline | Shadi Biyah + All Pakistan Tours |
-| Phone | 0323-3324226 |
-| WhatsApp | 0313-2416643 |
-
-## 🛠️ Tech Stack
-
-- Plain HTML5 + CSS3 + vanilla JavaScript — zero build step, zero dependencies
-- Google Fonts (Archivo Black, Archivo, Noto Nastaliq Urdu)
-- No framework, no bundler — a single `index.html` + `images/` you can host anywhere
-
-## 🚀 Live Demo
-
-- **GitHub Pages:** https://mohdabrarbaloch-arch.github.io/jholay-lal-transport/
-- **Original hosted version:** https://static.teamily.ai/sites/c2530a64-0b8e-4ef3-ba9c-d634aa2ab466/webpages/jholay-lal-website/index.html
-
-## 📦 Installation
-
-The site is static — just open it or serve the folder:
-
-```bash
-# clone
-git clone https://github.com/mohdabrarbaloch-arch/jholay-lal-transport.git
-cd jholay-lal-transport
-
-# option 1: open directly
-open index.html
-
-# option 2: serve locally (any static server)
-python3 -m http.server 8080
-# then visit http://localhost:8080
-```
-
-### Deploy to GitHub Pages
-
+---
 1. Push this repo to GitHub
 2. Repo **Settings → Pages**
 3. Source: **Deploy from a branch** → `main` / root (`/`)
@@ -78,6 +34,18 @@ python3 -m http.server 8080
 - **Call:** 0323-3324226
 - **WhatsApp:** 0313-2416643
 - **Services:** Shadi Biyah / Wedding Transport · All Pakistan Tours · Karachi & Outstation Trips · Special Occasions
+
+## 🌐 Deployment status
+
+**Not live yet — GitHub Pages is set up but the site hasn't published.**
+
+The workflow ran on 8 September and the `github-pages` deployment exists, but it never
+reported a success status, so `mohdabrarbaloch-arch.github.io/jholay-lal-transport/`
+isn't serving anything right now. Worth a look in the Actions tab: if the Pages source
+isn't set to **GitHub Actions** under Settings → Pages, that alone would explain it.
+
+The good news is this one needs no server, no database and no env vars — it's a single
+static page. Once Pages is switched on it should come up in a minute or two.
 
 ## 📄 License
 
